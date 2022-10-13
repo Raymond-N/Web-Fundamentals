@@ -1,0 +1,25 @@
+h1 {
+    /* background-color: purple; */
+    color: aqua;
+    text-align: center;
+    border: 1px dashed blue;
+}
+.box {
+    border: 1px solid red;
+    border-radius: 15px;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    margin: 20px;
+}
+
+.box p {
+    color: green;
+}
+
+#bold-text {
+    font-weight: bold;
+}
+.container {
+    text-align: center;
+}

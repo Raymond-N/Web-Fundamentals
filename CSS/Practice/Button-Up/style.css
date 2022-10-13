@@ -1,0 +1,26 @@
+#search, #plus, #account {
+    margin-bottom: 10px;
+    height: 40px;
+}
+#search {
+    color: teal;
+    border: 2px solid teal;
+    border-radius: 45%;
+    width: 100px;
+    font-weight: bold;
+}
+#plus {
+    color: white;
+    background-color: aquamarine;
+    border-radius: 50%;
+    width: 40px;
+    border: none;
+    font-weight: bold;
+}
+#account {
+    color: white;
+    background-color: rgb(28, 121, 243);
+    border: 2px solid black;
+    box-shadow: 2px 3px 3px black;
+    width: 150px;
+}

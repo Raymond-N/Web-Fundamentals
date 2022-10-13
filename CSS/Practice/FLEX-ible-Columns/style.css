@@ -1,0 +1,40 @@
+.row {
+    display: flex;
+    justify-content: flex-start;
+}
+.col {
+    background-color: teal;
+    color: white;
+    flex: 1;
+    width: auto;
+    height: 50px;
+    margin: 5px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.col-2 {
+    background-color: teal;
+    color: white;
+    flex: 2;
+    width: auto;
+    height: 50px;
+    margin: 5px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.col-3 {
+    background-color: teal;
+    color: white;
+    flex: 3;
+    width: auto;
+    height: 50px;
+    margin: 5px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
