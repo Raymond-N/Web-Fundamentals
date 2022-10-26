@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 650px;
+    margin-left: 100px;
+}
+/* Nav-Bar */
+.nav-bar {
+    background-color: black;
+    width: 100%;
+    height: 55px;
+}
+.nav-title {
+    color: white;
+    padding: 5px;
+    margin-left: 10px;
+}
+.your-feed {
+    font-size: 40px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main-content {
+    display: flex;
+}
+.col-1 {
+    flex: 1;
+}
+.col-2 {
+    flex: 2;
+}
+/* Col-1 */
+.user-card {
+    height: 255px;
+    width: 175px;
+    border: solid 3px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.user-card img {
+    height: 75px;
+    margin-top: 35px;
+}
+.user-card a {
+    margin-top: 15px;
+    color: rgb(18,90,152);
+    font-size: 20px;
+}
+.user-card p {
+    margin-top: 25px;
+    font-size: 25px;
+}
+/* Col-2 */
+.Neil .top,
+.Nichole .top,
+.Jim .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+.Neil .right,
+.Nichole .right,
+.Jim .right {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+    width: 150px;
+    justify-content: space-between;
+}
+.Neil,
+.Nichole,
+.Jim {
+    border: solid 3px black;
+    height: 150px;
+}
+button {
+    background-color: rgb(255,217,102);
+    color: black;
+    height: 30px;
+    width: 55px;
+    box-shadow: 3px 3px;
+}
+.Neil .right p,
+.Nichole .right p,
+.Jim .right p {
+    font-size: 15px;
+}
+.Neil .left p,
+.Nichole .left p,
+.Jim .left p {
+    font-size: 25px;
+}
+.bottom p {
+    font-size: 20px;
+}
+.bottom a {
+    color: rgb(18,90,152);
+}
+.Neil .bottom,
+.Nichole .bottom,
+.Jim .bottom {
+    margin-left: 25px;
+    margin-top: 25px;
+}
+.Nichole,
+.Jim {
+    margin-top: 10px;
+}
